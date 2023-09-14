@@ -1,5 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&family=Dosis:wght@200&display=swap");
+
 body {
   height: 100vh;
   display: flex;
   background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.video-wrapper {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  z-index: -1;
+  animation: fadeIn 3s;
+}
+
+.video-wrapper > video {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  object-fit: cover;
+  opacity: 0.3;
+}
+
+#header-title,
+#page-title,
+.subtitle {
+  font-family: "Averia Serif Libre", cursive;
+}
+
+#page-title {
+  text-align: center;
+  animation: fadeIn 1s;
+}
+
+#page-subtitle {
+  text-align: center;
+  letter-spacing: 0.3em;
+  font-family: "Dosis", sans-serif;
+  animation: fadeIn 1s;
+  margin-bottom: 1em;
+}
+
+.content-wrapper {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

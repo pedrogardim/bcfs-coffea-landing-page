@@ -1,16 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Coffea Co.</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
+    <div class="video-wrapper">
+        <video playsinline autoplay muted loop>
+            <source src="https://www.pexels.com/download/video/4795015/?fps=25.0&h=426&w=226">
+        </video>
+        <div class="video-overlay"></div>
+    </div>
+    <div class="container d-flex flex-column">
+        <nav class="navbar navbar-expand-lg bg-transparent">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#" id="header-title">Coffea Co.</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Nuestros granos</a>
+                        </li>
+                    </ul>
+                    <button class="btn btn-outline-light">Contacto</button>
+                </div>
+            </div>
+        </nav>
+        <div class="container content-wrapper">
+            <h1 class="display-1" id="page-title">Coffea Co.</h1>
+            <span class="h5" id="page-subtitle">- QUALITY COFFEE -</span>
+            <div>
+                <p class="lead text-center">Sumérgete en un viaje sensorial y déjate seducir por los matices y
+                    aromas
+                    de nuestras selectas variedades.</p>
+
+                <div class="d-flex justify-content-center mt-4">
+                    <a class="btn rounded-3 btn-outline-light">Descubrelo</a>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>
