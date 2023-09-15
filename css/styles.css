@@ -147,6 +147,12 @@ body {
   filter: invert(1);
 }
 
+/* FORM */
+
+#messageInput {
+  max-height: 7em;
+}
+
 /* FOOTER */
 
 .footer-icon {
