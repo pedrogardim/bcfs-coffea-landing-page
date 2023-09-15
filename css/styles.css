@@ -158,6 +158,20 @@ body {
   filter: invert(1);
 }
 
+/* FOOTER */
+
+.footer-icon {
+  height: 1.4em;
+  width: 1.4em;
+  opacity: 0.4;
+  margin-left: 0.7em;
+}
+
+.footer-icon:hover {
+  transition: opacity 0.5s;
+  opacity: 1;
+}
+
 /* ANIMATIONS */
 
 @keyframes fadeIn {
