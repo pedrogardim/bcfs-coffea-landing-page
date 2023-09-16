@@ -12,12 +12,26 @@ Si deseas ver la landing page en acción, simplemente [accede desde aquí](https
 
 - **HTML5** - Estructura de la página.
 - **CSS3** - Estilos y diseño.
-- **Bootstrap** - Diseño responsivo y componentes.
+- **Bootstrap 5** - Diseño responsivo y componentes.
+- **Google Fonts** - Tipografías personalizadas para mejorar la estética de la web.
+
+## 🏙️ Imágenes y recursos
+
+- **Pexels** - Vídeo e imágen de fondo.
+- **Unsplash** - Imágenes mock. Se ha utilizado `source.unsplash.com/featured` para obtener imágenes aleatórias de un cierto tema.
+- **ChatGPT de OpenAI** - Utilizado para generar datos ficticios o "mock data" para el proyecto.
+
+Pexels y Unsplash son gratis para uso comercial.
 
 ## ✒️ Autor
 
-- **Pedro Gardim** - Desarrollador del proyecto - [GitHub](https://github.com/pedrogardim)
+- **Pedro Gardim** - Desarrollador del proyecto
+  - [GitHub](https://github.com/pedrogardim) - [LinkedIn](https://www.linkedin.com/in/pedro-gardim) - [Portfolio](https://pedrogardim.com)
 
 ## 🎓 Agradecimientos
 
 - A **Geekshubs Academy** por la oportunidad de aprender y crecer como desarrollador.
+
+## 📄 Licencia
+
+Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para obtener más detalles.
