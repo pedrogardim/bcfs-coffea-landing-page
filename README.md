@@ -19,6 +19,7 @@ Si deseas ver la landing page en acción, simplemente [accede desde aquí](https
 
 - **Pexels** - Vídeo e imágen de fondo.
 - **Unsplash** - Imágenes mock. Se ha utilizado `source.unsplash.com/featured` para obtener imágenes aleatórias de un cierto tema.
+- **Material Icons Community** - Iconografía utilizada para mejorar la interfaz y experiencia del usuario.
 - **ChatGPT de OpenAI** - Utilizado para generar datos ficticios o "mock data" para el proyecto.
 
 Pexels y Unsplash son gratis para uso comercial.
